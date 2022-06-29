@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Online voting system - Registratrion</title>
-        <link rel="stylesheet" href="../css/stylesheet.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
     </head>
     <body>
         <center>
@@ -11,7 +11,7 @@
             <hr>
 
             <h2>Registration</h2>
-                <form action="../api/register.php" method="POST" enctype="multipart/form-data">
+                <form action="api/register.php" method="POST" enctype="multipart/form-data">
                     <input type="text" name="name" placeholder="Name" required>&nbsp
                     <input type="number" name="mob" placeholder="Mobile" required><br><br>
                     <input type="password" name="pass" placeholder="Password" required>&nbsp
